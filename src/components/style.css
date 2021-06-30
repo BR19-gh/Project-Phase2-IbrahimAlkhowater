@@ -1,0 +1,25 @@
+ div {
+    font-size: 22px;
+}
+
+p{
+    margin-top: 10px;
+    padding: 0;
+}
+
+.active{
+    background-color: #e5fcce;
+}
+
+.active::before{
+    content: 'Done!';
+}
+
+
+.active2{
+    background-color: #fccece;
+}
+
+.active2::before{
+    content: 'Deleting...';
+}
